@@ -1,0 +1,12 @@
+{
+  "name": "seatimes",
+  "version": "1.0.0",
+  "description": "Seattle Times Take Home",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
