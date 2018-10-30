@@ -15,8 +15,7 @@ body {
 .article-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
   font-size: 2em;
 }
 
@@ -28,5 +27,6 @@ body {
 }
 
 .article-link {
+  padding-top: 5%;
   color: black;
 }
