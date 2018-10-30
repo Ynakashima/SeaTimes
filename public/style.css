@@ -1,0 +1,33 @@
+body {
+  font-family: Oswald, sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em; 
+  border: 1px solid red;
+}
+
+#articles-wrapper {
+  display: flex;
+  border: 1px solid blue;
+}
+
+.article-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 2em;
+  border: 1px solid magenta;
+}
+
+.article-image {
+  /* display: flex; */
+  height: 50%;
+  width: 90%;
+}
+
+.article-title {
+
+}

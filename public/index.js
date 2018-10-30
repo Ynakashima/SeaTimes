@@ -15,14 +15,17 @@ request.onload = function() {
       articleCard.setAttribute('class', 'article-card');
 
       const articleTitle = document.createElement('h4');
+      articleTitle.setAttribute('class', 'article-title');
       articleTitle.textContent = article.title;
 
       const articleImage = document.createElement('img');
+      articleImage.setAttribute('class', 'article-image');
       articleImage.src = article.thumbnailURL;
 
       articleContainer.appendChild(articleCard);
-      articleCard.appendChild(articleTitle);
       articleCard.appendChild(articleImage);
+      articleCard.appendChild(articleTitle);
+      
     });
   } else {
     console.log('error');
