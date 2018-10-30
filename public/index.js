@@ -14,10 +14,6 @@ request.onload = function() {
       const articleCard = document.createElement('div');
       articleCard.setAttribute('class', 'article-card');
 
-      // const articleTitle= document.createElement('h4');
-      // articleTitle.setAttribute('class', 'article-title');
-      // articleTitle.textContent = article.title;
-
       const articleLink = document.createElement('a');
       articleLink.setAttribute('class', 'article-link');
       articleLink.href = article.articleURL;
